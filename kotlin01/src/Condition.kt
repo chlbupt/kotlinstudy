@@ -13,7 +13,7 @@ fun main() {
         println("少侠")
     }*/
 
-    val school = "11"
+    val school = "中学"
     val level = when (school) {
         "学前班" -> "幼儿"
         "小学" -> "少儿"
