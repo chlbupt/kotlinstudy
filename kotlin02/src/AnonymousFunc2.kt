@@ -6,7 +6,7 @@ fun main() {
     println(showOnBoard("花生米", getDiscountWords))
 }
 
-private fun showOnBoard(goodsName: String, getDiscountWords: (String, Int) -> String){
+private inline fun showOnBoard(goodsName: String, getDiscountWords: (String, Int) -> String){
     val hour = (1..24).shuffled().last()
     println(getDiscountWords(goodsName, hour))
 }
