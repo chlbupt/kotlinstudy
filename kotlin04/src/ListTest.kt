@@ -6,6 +6,7 @@ fun main() {
     println(list.getOrNull(3))
 }
 
+
 /**
  * list的创建
  * listOf("el1")

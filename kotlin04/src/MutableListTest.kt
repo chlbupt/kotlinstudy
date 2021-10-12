@@ -1,10 +1,17 @@
+
 fun main() {
     val list = mutableListOf("Jason", "Jack", "Jacky")
-    list.add("Jimmy")
-    list.remove("Jason")
-    println(list)
+//    list.add("Jimmy")
+//    list.remove("Jason")
+//    println(list)
+//
+//    val toList = list.toList()
 
-    val toList = list.toList()
+//    list += "Jimmy"
+//    list -= "Jason"
+
+    list.removeIf{ it.contains("Jack")}
+    println(list)
 
 }
 
