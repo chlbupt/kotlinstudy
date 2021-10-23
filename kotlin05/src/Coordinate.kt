@@ -5,6 +5,9 @@ data class Coordinate(var x: Int, var y: Int) {
 fun main() {
     println(Coordinate(10,10))
     println(Coordinate(10,20) == Coordinate(10,20)) // true,重写了equals，比较的是对象的属性
+
+    val (x,y) = Coordinate(10, 20)
+
 }
 
 /**
