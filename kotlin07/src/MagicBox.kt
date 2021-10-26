@@ -1,4 +1,4 @@
-class MagicBox<T>(item: T) {
+/*class MagicBox<T>(item: T) {
     var available = false
     private var subject: T = item
 
@@ -30,7 +30,7 @@ fun main() {
     }
 
     println(man)
-}
+}*/
 
 /**
  * 定义泛型类
